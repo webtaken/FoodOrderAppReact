@@ -12,7 +12,7 @@ function App() {
     setViewCart(prevState => {
       return !prevState; // negación del estado anterior
     });
-  }
+  };
 
   return (
     <CartProvider>
